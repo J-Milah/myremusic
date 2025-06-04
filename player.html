@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Now Playing - MyRemusic</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container player">
+    <header>
+      <button onclick="window.location.href='index.html'" class="back-btn">←</button>
+      <span>MyRemusic</span>
+    </header>
+    <div class="player-content">
+      <img id="cover" class="cover" src="" alt="cover" />
+      <div class="song-title" id="title"></div>
+      <div class="song-artist" id="artist"></div>
+      <input type="range" id="progress" value="0" step="1" />
+      <div class="time-display">
+        <span id="currentTime">0:00</span>
+        <span id="duration">0:00</span>
+      </div>
+      <div class="controls">
+        <button onclick="prevTrack()">⏮️</button>
+        <button onclick="togglePlay()" id="playBtn">▶️</button>
+        <button onclick="nextTrack()">⏭️</button>
+      </div>
+    </div>
+  </div>
+  <script src="player.js"></script>
+</body>
+</html>

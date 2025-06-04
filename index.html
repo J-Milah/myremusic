@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MyRemusic</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>MyRemusic</header>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search Music" oninput="searchMusic()" />
+      <button onclick="searchMusic()">🔍</button>
+    </div>
+
+    <div class="category-toggle">
+      <button id="jpopBtn" class="active" onclick="filterCategory('J-POP')">J-POP</button>
+      <button id="kpopBtn" onclick="filterCategory('K-POP')">K-POP</button>
+    </div>
+
+    <div class="music-list" id="musicList"></div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

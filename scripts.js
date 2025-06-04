@@ -1,9 +1,9 @@
 const musicData = [
-  { title: "オレンジ - Orange", artist: "SPYAIR", category: "J-POP", img: "/images/spyair-orange.png" },
-  { title: "Kizuna No Kiseki", artist: "MAN WITH A MISSION & milet", category: "J-POP", img: "/images/man with mission-kizuna no kiseki.png" },
-  { title: "ぎゅっと。- Gyutto", artist: "Mosawo", category: "J-POP", img: "/images/mosawo-gyutto.png" },
-  { title: "Akuma No Ko", artist: "Ai Higuchi", category: "J-POP", img: "/images/ai higuchi-akuman no ko.png" },
-  { title: "風のとおり道", artist: "Tayori", category: "J-POP", img: "/images/tayori.png" },
+  { title: "オレンジ - Orange", artist: "SPYAIR", category: "J-POP", img: "images/spyair-orange.png" },
+  { title: "Kizuna No Kiseki", artist: "MAN WITH A MISSION & milet", category: "J-POP", img: "images/man_with_mission-kizuna_no_kiseki.png" },
+  { title: "ぎゅっと。- Gyutto", artist: "Mosawo", category: "J-POP", img: "images/mosawo-gyutto.png" },
+  { title: "Akuma No Ko", artist: "Ai Higuchi", category: "J-POP", img: "images/ai_higuchi-akuman_no_ko.png" },
+  { title: "風のとおり道", artist: "Tayori", category: "J-POP", img: "images/tayori.png" },
   { title: "Dynamite", artist: "BTS", category: "K-POP", img: "https://i.imgur.com/sample1.jpg" },
   { title: "How You Like That", artist: "BLACKPINK", category: "K-POP", img: "https://i.imgur.com/sample2.jpg" }
 ];

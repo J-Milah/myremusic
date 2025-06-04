@@ -1,10 +1,10 @@
 // Dummy music list (samakan dengan scripts.js nanti)
 const musicData = [
-  { title: "オレンジ - Orange", artist: "SPYAIR", src: "/music/Orange.mp3", img: "/images/spyair-orange.png" },
-  { title: "Kizuna No Kiseki", artist: "MAN WITH A MISSION & milet", src: "/music/Kizuna No Kiseki.mp3", img: "/images/man with mission-kizuna no kiseki.png" },
-  { title: "ぎゅっと。- Gyutto", artist: "Mosawo", src: "/music/Gyutto.mp3", img: "/images/mosawo-gyutto.png" },
-  { title: "Akuma No Ko", artist: "Ai Higuchi", src: "/music/悪魔の子.mp3", img: "/images/ai higuchi-akuman no ko.png" },
-  { title: "風のとおり道", artist: "Tayori", src: "/music/風のたより.mp3", img: "/images/tayori.png" }
+  { title: "オレンジ - Orange", artist: "SPYAIR", src: "music/orange.mp3", img: "images/spyair-orange.png" },
+  { title: "Kizuna No Kiseki", artist: "MAN WITH A MISSION & milet", src: "music/kizuna_no_kiseki.mp3", img: "images/man_with_mission-kizuna_no_kiseki.png" },
+  { title: "ぎゅっと。- Gyutto", artist: "Mosawo", src: "music/gyutto.mp3", img: "images/mosawo-gyutto.png" },
+  { title: "Akuma No Ko", artist: "Ai Higuchi", src: "music/akuma_no_ko.mp3", img: "images/ai_higuchi-akuman_no_ko.png" },
+  { title: "風のとおり道", artist: "Tayori", src: "music/little_birt.mp3", img: "images/tayori.png" }
 ];
 
 // ambil index dari query string (default 0)
